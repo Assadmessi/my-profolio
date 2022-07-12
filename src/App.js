@@ -4,8 +4,8 @@ import Navigation from './Components/Navigation';
 
 function App() {
   return (
-    <div>
-      <div className='grid grid-cols-2 bg-gray-500 h-9 fixed drop-shadow-3xl w-screen text-white'>
+    <div className='bg-web h-screen bg-no-repeat bg-cover'>
+      <div className='grid grid-cols-2 bg-royal-blue h-9 fixed drop-shadow-3xl w-screen text-white'>
         <div className='mx-3'>
           <Header/>
         </div>

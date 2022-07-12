@@ -12,7 +12,12 @@ module.exports = {
         'web' : "url('./img/background-image.jpg')"
       },
       colors: {
-        'royal-blue' : '#525303'
+        'royal-blue' : '#525303',
+        'royal-brown' : '#530403',
+        'brown' : '#964B00'
+      },
+      spacing: {
+        '128': '32rem',
       }
     }
   },

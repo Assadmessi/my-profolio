@@ -4,7 +4,11 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      dropShadow: {
+        '3xl': '0 3px 3px rgba(0, 0, 50, 0.5)'
+      }
+    }
   },
   plugins: [],
 }

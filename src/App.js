@@ -6,7 +6,7 @@ import Home from './Views/Home';
 function App() {
   return (
     <div className='bg-web h-screen bg-no-repeat bg-cover'>
-      <div className='grid grid-cols-2 bg-royal-green h-9 fixed drop-shadow-3xl w-screen text-white h-12 content-center'>
+      <div className='grid grid-cols-2 bg-royal-green h-9 fixed drop-shadow-3xl w-screen text-white h-12 content-center z-10'>
         <div>
           <Header/>
         </div>

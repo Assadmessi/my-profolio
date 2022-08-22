@@ -19,6 +19,11 @@ module.exports = {
       },
       spacing: {
         '128': '32rem',
+        '100': '6.25rem',
+        '105': '6.57rem'
+      },
+      gridAutoRows: {
+        '300px': 'minmax(0, 500px)'
       }
     }
   },

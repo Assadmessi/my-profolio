@@ -4,7 +4,7 @@ import phone from '../img/phone.png';
 
 function Contact() {
     return (
-        <div className="grid gap-y-5 mt-5 mr-72">
+        <div className="grid gap-y-5  mr-72">
             <div className="flex">
                 <img src={email} alt="email logo"
                 className="rounded-full w-11"

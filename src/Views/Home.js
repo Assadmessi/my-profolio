@@ -3,6 +3,7 @@ import Profileimg from "../Components/profile-img";
 import HomeText from "../Components/homeText";
 import Contact from "../Components/Contact";
 import Education from "../Components/Education";
+import Skills from "../Components/Skill";
 
 function Home() {
     return (
@@ -16,6 +17,7 @@ function Home() {
             </div>
             <div className="mt-6 col-start-1 col-end-2 row-start-2 row-end-3">
                 <Contact/>
+                <Skills/>
             </div>
         </div>
     )

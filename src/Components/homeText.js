@@ -3,9 +3,9 @@ import React from "react";
 function homeText () {
     return (
         <div>
-             <div className="text-white py-3.5 px-4 ">
+             <div className="text-white pt-2 px-4 ">
                 <h1 className="border-b-2 w-100 text-2xl">Summary</h1>
-                <p>
+                <p className="mt-5">
                     I am currently working as Junior Web Developer and Sale Supervisor at Grand Wynn Group Enterprise in Yangon, Myanmar.
                     I re-build the website                <a href="https://www.grandfoodmart.net" target={"_blank"} rel="noreferrer" className="text-gray-300 hover:text-brown">
                         www.grandfoodmart.net

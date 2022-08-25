@@ -2,7 +2,7 @@ import React from "react";
 
 function Education () {
     return(
-        <div className="text-white py-3.5 px-4">
+        <div className="text-white pt-2 px-4">
             <h1 className="border-b-2 w-105 text-2xl">Education</h1>
             <div className="pt-2.5">
               <h2 className="text-xl">B.E.H.S (1) Botahatung, Yangon, Myanmar</h2>

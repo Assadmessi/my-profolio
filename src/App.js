@@ -2,6 +2,11 @@ import './App.css';
 import Navigation from './Components/Navigation';
 import Home from './Views/Home';
 import Footer from './Components/footer';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
 
 function App() {
   return (

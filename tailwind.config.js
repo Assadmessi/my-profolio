@@ -23,9 +23,6 @@ module.exports = {
         '105': '6.57rem',
         '530': '33rem'
       },
-      gridAutoRows: {
-        '300px': 'minmax(0, 500px)'
-      },
       gridTemplateColumns: {
         'g100': '100px 1fr'
       }

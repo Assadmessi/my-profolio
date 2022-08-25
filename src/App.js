@@ -1,21 +1,17 @@
 import './App.css';
-import Header from './Components/Header';
 import Navigation from './Components/Navigation';
 import Home from './Views/Home';
+import Footer from './Components/footer';
 
 function App() {
   return (
-    <div className='bg-web h-screen bg-no-repeat bg-cover'>
-      <div className='grid grid-cols-2 bg-royal-green h-9 fixed drop-shadow-3xl w-screen text-white h-12 content-center z-10'>
-        <div>
-          <Header/>
-        </div>
-        <div className='py-1'>
+    <div className='w-full h-full overflow-hidden'>
+      <div className='h-screen w-screen overflow-y-scroll pr-4 box-content bg-web bg-center bg-repeat bg-cover'>
           <Navigation/>
-        </div>
+          <Home/>
       </div>
       <div>
-        <Home/>
+        <Footer/>
       </div>
     </div>
   );
